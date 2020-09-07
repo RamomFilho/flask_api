@@ -52,10 +52,5 @@ def transaction():
         }
         return jsonify(msg), 400
 
-
-@app.route('/ping', methods=['GET'])
-def ping():
-    return jsonify({'foo': 'bar'})
-
 if __name__ == "__main__":
     app.run(debug=True, host='0.0.0.0')
