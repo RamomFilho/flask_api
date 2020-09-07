@@ -27,6 +27,11 @@ def test_transaction_status_code_insert_body():
         }),
         content_type='application/json',
     )
+    recorded_number = len(Transaction.query.filter_by(custumer="094.214.930-01").all())
+    last_record = Transaction.query.filter_by(id=recorded_number).all()
+    db.session.delete(last_record[0])
+    db.session.commit()
+
     assert response.status_code == 201
 
     
@@ -45,6 +50,11 @@ def test_transaction_response_body():
     response = {
             "aceito": True
         }
+    recorded_number = len(Transaction.query.filter_by(custumer="094.214.930-01").all())
+    last_record = Transaction.query.filter_by(id=recorded_number).all()
+    db.session.delete(last_record[0])
+    db.session.commit()
+
     assert data == response
 
 

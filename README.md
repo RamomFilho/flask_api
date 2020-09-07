@@ -8,7 +8,7 @@ Utilizando Flask para API Backend, e as seguintes ferramentas:
 - SQLAlchemy
 
 ## Instalação
-Preparação de ambiente para aplicação.
+Preparação de ambiente da aplicação.
 Para aplicação é indicado rodar em um ambiente isolado, uma [virtualenv](https://docs.python.org/pt-br/dev/library/venv.html).
 Requisitos:
 
