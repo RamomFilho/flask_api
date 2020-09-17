@@ -1,6 +1,6 @@
 # API Flask
 
-Utilizando Flask como API, e as seguintes ferramentas:
+Utilizando Flask como API com as seguintes ferramentas:
 
 - Flask
 - sqlite3
