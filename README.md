@@ -1,6 +1,6 @@
 # API Flask
 
-Utilizando Flask para API Backend, e as seguintes ferramentas:
+Utilizando Flask como API, e as seguintes ferramentas:
 
 - Flask
 - sqlite3
